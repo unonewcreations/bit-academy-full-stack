@@ -1,0 +1,55 @@
+:root {
+    --background-page: #A89729;
+    --links-page: #5C5000;
+    --section-background-page: #F0E181;
+    --border-page: #C7B649;
+}
+
+body {
+    background-color: var(--background-page);
+}
+
+h1 {
+    color: black;
+    font-size: 64px;
+    background-color: var(--section-background-page);
+}
+
+h2 {
+    color: white;
+    font-size: 32px;
+}
+
+li a {
+    color: var(--links-page);
+}
+
+img {
+    width: 150px;
+}
+
+div {
+    background-color: var(--section-background-page);
+}
+
+span {
+    color: black;
+}
+
+article {
+    background-color: var(--section-background-page);
+}
+
+h1,
+h2 {
+    border-bottom-style: solid;
+    border-color: var(--border-page);
+}
+
+nav {
+    background-color: var(--section-background-page);
+}
+
+nav a {
+    color: var(--links-page);
+}

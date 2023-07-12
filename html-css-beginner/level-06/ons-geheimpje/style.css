@@ -1,0 +1,10 @@
+.style-input {
+    border-radius: 5px;
+    margin-bottom: 25px;
+    min-width: 200px;
+}
+
+.style-label {
+    margin-bottom: 20px;
+    font-weight: bold;
+}

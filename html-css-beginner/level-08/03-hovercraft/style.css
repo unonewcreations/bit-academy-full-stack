@@ -1,0 +1,65 @@
+html {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+th,
+td {
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    padding: 2px;
+}
+
+th {
+    background-color: lightgray;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+.orange {
+    background-color: peachpuff;
+    border: 1px solid gray;
+}
+
+.plum {
+    background-color: plum;
+    border: 1px solid gray;
+}
+
+.yellow {
+    background-color: lightgoldenrodyellow;
+    border: 1px solid gray;
+}
+
+.blue {
+    background-color: lightblue;
+    border: 1px solid gray;
+}
+
+.eerste_nummer {
+    color: green;
+    font-size: 10px;
+}
+
+.eerste_naam {
+    color: green;
+    font-weight: bold;
+}
+
+.overige_nummer {
+    color: black;
+    font-size: 10px;
+}
+
+.overige_naam {
+    color: black;
+    font-weight: bold;
+}
+
+td:hover {
+    background-color: lime;
+    cursor: pointer;
+}
