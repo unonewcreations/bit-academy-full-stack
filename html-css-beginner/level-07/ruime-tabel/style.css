@@ -1,0 +1,23 @@
+table {
+    width: 400px;
+    border-spacing: 5px;
+}
+
+td {
+    line-height: 50px;
+    border: 1px solid #000;
+}
+
+th {
+    text-align: center;
+    border: none;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+input {
+    border: none;
+}

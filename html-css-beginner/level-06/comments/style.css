@@ -1,0 +1,35 @@
+input {
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+label {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* section input {
+    margin-top: 25px;
+} */
+
+/* fieldset {
+    margin-top: 25px;
+} */
+
+/* fieldset div label {
+    margin: none;
+} */
+
+.dagen,
+.fieldset {
+    margin-top: 25px;
+}
+
+textarea {
+    border-color: red;
+    outline: none;
+}
+
+textarea:focus {
+    border-color: green;
+}

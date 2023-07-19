@@ -1,0 +1,45 @@
+th,
+td {
+    width: 45px;
+    height: 45px;
+    text-align: center;
+}
+
+th {
+    background-color: lightgray;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+.orange {
+    background-color: orange;
+    border: 1px solid gray;
+}
+
+.plum {
+    background-color: plum;
+    border: 1px solid gray;
+}
+
+.yellow {
+    background-color: lightgoldenrodyellow;
+    border: 1px solid gray;
+}
+
+.green {
+    color: green;
+}
+
+/* 1ste en 2de divs apart stylen */
+a div:nth-child(1) {
+    color: black;
+    font-size: 10px;
+}
+
+a div:nth-child(2) {
+    color: black;
+    font-weight: bold;
+}
