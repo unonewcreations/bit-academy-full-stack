@@ -1,1 +1,1 @@
-# bit-academy_full-stack
+# bit-academy-full-stack
