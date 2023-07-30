@@ -1,0 +1,97 @@
+:root {
+  --peach: #fcedda;
+  --burnt-orange: #ee4e34;
+}
+
+* {
+  font-family: "Righteous", cursive;
+}
+
+body {
+  background-color: #ee4e34;
+  background: linear-gradient(135deg, #fcedda55 25%, transparent 25%) -40px 0/
+      80px 80px,
+    linear-gradient(225deg, #fcedda 25%, transparent 25%) -40px 0/ 80px 80px,
+    linear-gradient(315deg, #fcedda55 25%, transparent 25%) 0px 0/ 80px 80px,
+    linear-gradient(45deg, #fcedda 25%, #ee4e34 25%) 0px 0/ 80px 80px;
+}
+
+h1 {
+  text-align: center;
+  margin: 50px auto;
+  font-size: 48px;
+  color: var(--burnt-orange);
+}
+
+label {
+  color: var(--peach);
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid var(--peach);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid var(--peach);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid var(--peach);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  border: none;
+  color: var(--burnt-orange);
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: var(--peach);
+  border-radius: 4px;
+}
+
+div.container {
+  width: 500px;
+  border-radius: 5px;
+  background-color: var(--burnt-orange);
+  padding: 20px;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+section.body {
+  border-radius: 5px;
+  background-color: var(--peach);
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 600px;
+  height: 600px;
+}
+
+h2 {
+  text-align: center;
+}
