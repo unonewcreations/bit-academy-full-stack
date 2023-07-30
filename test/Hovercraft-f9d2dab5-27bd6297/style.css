@@ -1,0 +1,17 @@
+table {width: 200px;}
+th, td {border: solid 1px; 
+        color: black; 
+        padding: 20px;
+        text-align: center;
+        font-family: Arial}
+a   {font-size: smaller;}
+
+tr {background-color: lightgray;}
+.red {background-color: rgb(232, 64, 98);}
+.purple {background-color: rgb(207, 143, 207);}
+.blue {background-color: aqua;}
+.yellow {background-color: yellow;}
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover {color: white; cursor: pointer;} 
+a:active {text-decoration: none;}
